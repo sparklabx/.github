@@ -1,32 +1,34 @@
 # SparkLabX
 
-**Building one platform for the entire data lifecycle — on your own infrastructure.**
+**One platform for the entire data lifecycle — on your own infrastructure.**
 
-Our vision: ingestion, processing, orchestration, querying, governance, and
-security as a single, coherent, self-hosted workspace — open by design, with no
-vendor lock-in. We're building it one production-ready piece at a time.
+A unified, self-hosted data platform built on Apache Spark and open lakehouse
+standards: ingest, process, orchestrate, query, govern, and secure your data
+from a single workspace — no SaaS dependency, no vendor lock-in.
 
-## Available now
+![SparkLabX platform](https://raw.githubusercontent.com/sparklabx/.github/main/profile/platform.png)
 
-- **[Self-hosted multi-user Spark notebooks](https://github.com/sparklabx/sparklabx)**
-  — interactive PySpark + Scala, per-user kernel pods, MinIO IAM storage, OAuth.
-  One Helm install. Apache-2.0.
+## The platform
 
-## Where we're headed
-
-The pieces below are in active development — this is the platform we're working
-toward, not a description of what ships today:
+A running, production-grade workspace covering the full data lifecycle:
 
 - **Data Ingestion** — land raw data from any source
 - **Workflows & Data Processing** — medallion pipelines (bronze → silver →
   gold) with scheduling, backfill, and run history
-- **Query Engine** — ad-hoc SQL over the lakehouse
+- **Notebooks & Query Engine** — interactive PySpark + Scala, ad-hoc SQL
 - **Data Catalog & Governance** — discover, document, and control your data
 - **Monitoring & Security Center** — observability and access control across everything
 
-> _Preview of the platform vision (Workflows module — in development):_
+## Open source
 
-![SparkLabX platform preview](https://raw.githubusercontent.com/sparklabx/.github/main/profile/platform.png)
+We're open-sourcing the platform progressively. Available today:
+
+- **[sparklabx](https://github.com/sparklabx/sparklabx)** — Self-hosted,
+  multi-user Spark notebooks. Per-user kernel pods, MinIO IAM storage, OAuth.
+  One Helm install. Apache-2.0.
+
+The remaining modules run in the platform today; their source is being prepared
+for release.
 
 ## Principles
 
