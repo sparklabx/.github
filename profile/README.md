@@ -2,6 +2,8 @@
 
 **One platform for the entire data lifecycle — on your own infrastructure.**
 
+![SparkLabX platform](https://raw.githubusercontent.com/sparklabx/.github/main/profile/platform.png)
+
 SparkLabX is a unified, self-hostable data platform built on Apache Spark and
 open lakehouse standards. Ingest, process, orchestrate, query, govern, and
 secure your data from a single workspace — no SaaS dependency, no vendor
